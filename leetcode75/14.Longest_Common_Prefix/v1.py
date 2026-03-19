@@ -45,6 +45,7 @@ class Solution:
 
         for string in strs[1:]:
             i = 0
+            
             while i < len(prefix) and i < len(string) and prefix[i] == string[i]:
                 i += 1
 
