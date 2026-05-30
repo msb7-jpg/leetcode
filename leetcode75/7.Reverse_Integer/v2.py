@@ -25,8 +25,9 @@ Constraints:
 """
 
 class Solution:
-    def reverse(self, x: int) -> int:
+    def reverse(self, x) -> int:
         sign = 1 if x > 0 else -1
+        
         x = str(abs(x))
         x = int(x[::-1])
         return x * sign if x <= (2 ** 31) - 1 else 0

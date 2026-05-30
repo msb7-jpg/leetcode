@@ -56,10 +56,11 @@ class Solution:
             maxArea = max(maxArea, area)
 
         return maxArea
-list = [1,8,6,2,5,4,8,3,7]
+    
+heights = [1,8,6,2,5,4,8,3,7]
 # list = [1,1]
 
-print(Solution().maxArea(list))
+print(Solution().maxArea(heights))
 
 """
 LeetCode 11: Container With Most Water - Two Pointer Approach

@@ -32,7 +32,6 @@ TODO: go over this again
 
 """
 
-
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         if not strs:
